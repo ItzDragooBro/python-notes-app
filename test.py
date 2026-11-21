@@ -24,7 +24,7 @@ while True:
                         print(f"{number}: {note.strip()}")
             except FileNotFoundError:
                 print("No notes found, try adding some!")
-
+git push -u origin main
         elif user_input == 3:
             print("Delete Note")
             with open("notes.txt", "w") as file:
